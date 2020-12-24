@@ -1,0 +1,4 @@
+baseURL = "http://bojt.club/"
+languageCode = "en-us"
+title = "Böjt Club"
+sectionPagesMenu = "main"
