@@ -29,7 +29,7 @@ author = "Posta Galamb"
 description = "Regisztrálj ha érdekel"
 profilePicture = "images/profile.jpg"
 keywords = ""
-favicon = "static/favicons/favicon.ico"
+favicon = "favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
@@ -96,3 +96,14 @@ url = "mailto:mail@alexbilz.com"
   weight = 400
   identifier = "contact"
   url = "/contact/"
+
+  [languages]
+  [languages.en]
+    contentDir = "content/english"
+    languageName = "EN"
+    weight = 1
+
+  [languages.hu]
+    contentDir = "content/hungarian"
+    languageName = "HU"
+    weight = 2
