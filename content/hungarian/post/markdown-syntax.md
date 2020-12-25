@@ -54,7 +54,6 @@ Az idézetblokk elem egy olyan tartalmat reprezentál amelynek forrása külső,
 
 ## Táblázatok (Tables)
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 A táblázatokat nem tartalamzza a Markdown eredeti specifikációja, de a Hugo már alapból támogatja őket.
 
 Név | Életkor
@@ -62,15 +61,15 @@ Név | Életkor
 Bob | 27
 Alice | 23
 
-#### Inline Markdown within tables
+#### Táblázaton belüli jelölé alakamazása (Inline Markdown within tables)
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
 
-## Code Blocks
+## Kódblokkok (Code Blocks)
 
-#### Code block with backticks
+#### Kódblokk ` backtickkel (Code block with backticks)
 
 ```html
 <!doctype html>
