@@ -29,7 +29,7 @@ author = "Posta Galamb"
 description = "Regisztrálj ha érdekel"
 profilePicture = "images/profile.jpg"
 keywords = ""
-favicon = "favicons/"
+favicon = "static/favicons/favicon.ico"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]

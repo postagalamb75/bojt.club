@@ -1,11 +1,8 @@
 ---
-title: "Böjt Club portal with HUGO"
-date: 2020-12-24T21:11:31+01:00
-draft: true
-menu: "main"
-weight: 1
+author: Posta Galamb
 ---
 
+<!--
 ## Tudatos böjtölők klubja
 
 Ez a portál segítséget nyújt a böjtölőknek háttér információkkal, támogatja a rendszeresen böjtölők csoportba szerveződését, programokat indít melyhez bárki csatlakozhat.
@@ -24,3 +21,4 @@ Ez a portál segítséget nyújt a böjtölőknek háttér információkkal, tá
     <input type="text">
     <input type="submit" value="Küldés">
 </form>
+-->
