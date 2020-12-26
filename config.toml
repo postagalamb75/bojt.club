@@ -96,6 +96,12 @@ url = "mailto:mail@alexbilz.com"
   weight = 400
   identifier = "contact"
   url = "/contact/"
+  
+  [[menu.main]]
+  name = "Landing"
+  weight = 500
+  identifier = "landing"
+  url = "/landing/"
 
   [languages]
   [languages.en]
