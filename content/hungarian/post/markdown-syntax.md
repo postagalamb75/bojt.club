@@ -57,9 +57,10 @@ Az idézetblokk elem egy olyan tartalmat reprezentál amelynek forrása külső,
 A táblázatokat nem tartalamzza a Markdown eredeti specifikációja, de a Hugo már alapból támogatja őket.
 
 Név | Életkor
---- |:---:
+:--- |---:
 Bob | 27
 Alice | 23
+Lizi | 19
 
 #### Táblázaton belüli jelölé alakamazása (Inline Markdown within tables)
 
@@ -84,7 +85,7 @@ Alice | 23
 </html>
 ```
 
-#### Code block indented with four spaces
+#### Kódblokk négy szóközzel behúzva (Code block indented with four spaces)
 
     <!doctype html>
     <html lang="en">
@@ -97,7 +98,7 @@ Alice | 23
     </body>
     </html>
 
-#### Code block with Hugo's internal highlight shortcode
+#### Kódblokk Hugo Shortcode-val (Code block with Hugo's internal highlight shortcode)
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
@@ -111,21 +112,21 @@ Alice | 23
 </html>
 {{< /highlight >}}
 
-## List Types
+## Listatipusok (List Types)
 
-#### Ordered List
+#### Rendezett lista (Ordered List)
 
 1. First item
 2. Second item
 3. Third item
 
-#### Unordered List
+#### Rendezettlen lista (Unordered List)
 
 * List item
 * Another item
 * And another item
 
-#### Nested list
+#### Beágyazott lista (Nested list)
 
 * Fruit
   * Apple
@@ -135,14 +136,20 @@ Alice | 23
   * Milk
   * Cheese
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Egyéb elemek — abbr, sub, sup, kbd, mark
 
+    <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
+***
+    H<sub>2</sub>O
 H<sub>2</sub>O
-
+***
+    X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
+***
+    Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
 Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
+***
+    Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+***
