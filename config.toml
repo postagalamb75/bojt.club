@@ -1,12 +1,10 @@
-baseURL = "http://bojt.club/"
+baseURL = "https://bojt.club/"
 # languageCode = "en-us"
 title = "Böjt Club"
 # sectionPagesMenu = "main"
 
-# baseURL = "https://example.com"
 languageCode = "en"
-DefaultContentLanguage = "en"
-# title = "Website of Jane Doe"
+DefaultContentLanguage = "hu"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
