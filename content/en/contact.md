@@ -5,6 +5,3 @@ date: 2019-03-08
 description: Contact Page
 contact: true
 ---
-## Ez itt a kontact lap
-
-Hogy néz ki?

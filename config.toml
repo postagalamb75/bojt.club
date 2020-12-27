@@ -4,7 +4,7 @@ title = "Böjt Club"
 # sectionPagesMenu = "main"
 
 languageCode = "en"
-DefaultContentLanguage = "hu"
+DefaultContentLanguage = "en"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -69,45 +69,88 @@ url = "mailto:mail@alexbilz.com"
 
 ## Menu items
 
-[menu]
+ContentLanguageInSubdir = true
 
-  [[menu.main]]
+[languages]
+[languages.en]
+contentDir = "content/en"
+languageName = "EN"
+weight = 1
+
+[languages.hu]
+contentDir = "content/hu"
+languageName = "HU"
+weight = 0
+
+
+[menu]
+[[languages.en.menu.main]]
   name = "Home"
   identifier = "home"
-  weight = 100
+  weight = 1
   url = "/"
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
   name = "Posts"
-  weight = 200
+  weight = 2
   identifier = "posts"
   url = "/post/"
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
   name = "About"
-  weight = 300
+  weight = 3
   identifier = "about"
   url = "/about/"
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
   name = "Contact"
-  weight = 400
+  weight = 4
   identifier = "contact"
   url = "/contact/"
   
-  [[menu.main]]
+  [[languages.en.menu.main]]
   name = "Landing"
-  weight = 500
+  weight = 5
   identifier = "landing"
   url = "/landing/"
 
-  [languages]
-  [languages.en]
-    contentDir = "content/english"
-    languageName = "EN"
-    weight = 1
+[[languages.hu.menu.main]]
+  name = "Honlap"
+  identifier = "home"
+  weight = 1
+  url = "/hu/"
 
-  [languages.hu]
-    contentDir = "content/hungarian"
-    languageName = "HU"
-    weight = 2
+  [[languages.hu.menu.main]]
+  name = "Posta"
+  weight = 2
+  identifier = "posts"
+  url = "/hu/post/"
+
+  [[languages.hu.menu.main]]
+  name = "Magunkról"
+  weight = 3
+  identifier = "about"
+  url = "/hu/about/"
+
+  [[languages.hu.menu.main]]
+  name = "Kontakt"
+  weight = 4
+  identifier = "contact"
+  url = "/hu/contact/"
+  
+  [[languages.hu.menu.main]]
+  name = "Landol"
+  weight = 5
+  identifier = "landing"
+  url = "/landing/"
+
+# [languages]
+# [languages.en]
+#   contentDir = "content/english"
+#   languageName = "EN"
+#   weight = 1 
+
+# [languages.hu]
+#   contentDir = "content/hungarian"
+#   languageName = "HU"
+#   weight = 2
