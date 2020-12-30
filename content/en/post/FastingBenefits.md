@@ -1,6 +1,7 @@
 ---
 title: "Why Fasting Is The Best Way To Lose Weight"
 date: 2018-03-29
+categories: [cikk]
 draft: true
 ---
 **Why Fasting Is The Best Way To Lose Weight** -<cite>Dr. Stephanie Estima[^1]</cite>
