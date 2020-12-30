@@ -8,7 +8,7 @@ image: ""
 draft: true
 ---
 
-## 3500, 3200, 2500, 21001 1700, 1400 vagy 1200 kilokalóriára naponta
+## 3500, 3200, 2500, 2100 1700, 1400 vagy 1200 kilokalóriára naponta
 
 Meggyőződésünk, hogy tudomány célja az igazság kiderítése. Ez valószínűleg így is van, ha megalkuvást nem ismerő, ügyes kutatóról van szó. Többnyire azonban szinte hihetetlen mértékben az idő és néhány egyéb határozza meg, hogy milyen kérdéseket és hogyan tesznek fel, és mi lesz a végeredmény. Ezért a vizsgálatok pontossága is csak látszólagos.
 

@@ -109,10 +109,16 @@ weight = 0
   url = "/contact/"
   
   [[languages.en.menu.main]]
-  name = "Landing"
-  weight = 5
-  identifier = "landing"
-  url = "/landing/"
+  name = "Categories"
+  weight = 6
+  identifier = "categories"
+  url = "/categories/"
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  weight = 7
+  identifier = "tags"
+  url = "/tags/"
 
 [[languages.hu.menu.main]]
   name = "Honlap"
@@ -144,13 +150,14 @@ weight = 0
   identifier = "landing"
   url = "/landing/"
 
-# [languages]
-# [languages.en]
-#   contentDir = "content/english"
-#   languageName = "EN"
-#   weight = 1 
+[[languages.hu.menu.main]]
+  name = "Kategoriák"
+  weight = 6
+  identifier = "categories"
+  url = "/hu/categories/"
 
-# [languages.hu]
-#   contentDir = "content/hungarian"
-#   languageName = "HU"
-#   weight = 2
+  [[languages.hu.menu.main]]
+  name = "Cimkék"
+  weight = 7
+  identifier = "tags"
+  url = "/hu/tags/"
